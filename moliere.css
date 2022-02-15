@@ -30,13 +30,7 @@ table{
     margin:20px;
     border-collapse: collapse;
 }
- th,td{
+th, td {
     text-align:center;
     padding: 15px;
-}
-tr:nth-child(odd){
-    background-color: brown;
-}
-tr:nth-child(even){
-    background-color: burlywood;
 }

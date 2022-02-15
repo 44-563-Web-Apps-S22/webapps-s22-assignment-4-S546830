@@ -24,3 +24,27 @@
 .ELI{
     color: chocolate;
 }
+table{
+    width: max-content;
+    border: 2px solid aquamarine;
+    margin:20px;
+    border-collapse: collapse;
+}
+th, td {
+    text-align:center;
+    border: 2px solid;
+    padding: 15px;
+}
+tr:nth-child(even) {
+    background-color: brown;
+}
+.VAL:hover {
+    filter:blur(1px);
+    border:3px blue;
+    box-shadow:2px 2px blueviolet;
+}
+.ELI:hover{
+    filter:blur(1px);
+    border:3px blue;
+    box-shadow:2px 2px blueviolet;  
+}

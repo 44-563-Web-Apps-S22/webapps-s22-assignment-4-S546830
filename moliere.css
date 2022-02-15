@@ -3,7 +3,7 @@
     font-size: larger;
     color:black;
 }
-.direction a{
+.direction{
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
     color:black;
@@ -14,7 +14,7 @@
     font-size: larger;
     color:black;
 }
-a:hover{
+.direction:hover{
     background-color: cadetblue;
     color: brown;
 }

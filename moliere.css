@@ -48,3 +48,25 @@ tr:nth-child(even) {
     border:3px blue;
     box-shadow:2px 2px blueviolet;  
 }
+ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navbar-horizontal li {
+    float:left;
+    background-color: darkviolet;
+}
+ul.navbar-horizontal a {
+    display:block;
+    padding:8px;
+    color: floralwhite;
+}
+ul.navbar-horizontal a:hover {
+    background-color: darkslateblue;
+    color:yellowgreen;
+}
+.icon{
+    float:right;
+}
+
